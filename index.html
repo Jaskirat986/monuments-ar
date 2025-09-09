@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Monuments AR Gallery</title>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="styles.css">
+	<!-- model-viewer web component -->
+	<script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
+	<meta name="description" content="AR-enabled gallery of world monuments. View in your space on supported devices.">
+</head>
+<body>
+	<header class="site-header">
+		<h1>World Monuments AR</h1>
+		<p class="tagline">Explore iconic monuments in 3D and AR</p>
+	</header>
+
+	<main class="container">
+		<section class="hero">
+			<model-viewer
+				id="heroViewer"
+				src="models/taj_mahal.glb"
+				poster="images/taj_poster.jpg"
+				shadow-intensity="1"
+				camera-controls
+				auto-rotate
+				exposure="1.2"
+				ar
+				ar-modes="scene-viewer webxr quick-look"
+				ios-src="models/taj_mahal.usdz"
+				alt="Taj Mahal 3D model">
+			</model-viewer>
+			<div class="hero-cta">
+				<button id="arButton" class="primary">View in AR</button>
+				<a class="secondary" href="#gallery">Browse Gallery</a>
+			</div>
+		</section>
+
+		<section id="gallery" class="gallery"></section>
+	</main>
+
+	<footer class="site-footer">
+		<p>Replace sample models in the <code>models/</code> and <code>images/</code> folders with your own. See instructions in the page.</p>
+	</footer>
+
+	<script src="app.js"></script>
+</body>
+</html>
+
+
