@@ -1,28 +1,28 @@
 // Basic data. Replace with your own models/posters.
 const monuments = [
 	{
-		name: 'Taj Mahal',
-		description: 'Agra, India — ivory-white marble mausoleum.',
-		src: 'models/taj_mahal.glb',
+		name: 'Astronaut',
+		description: 'Sample model hosted by modelviewer.dev',
+		src: 'https://modelviewer.dev/shared-assets/models/Astronaut.glb',
 		poster: 'images/taj_poster.svg',
-		iosSrc: 'models/taj_mahal.usdz',
-		alt: 'Taj Mahal 3D model',
+		iosSrc: 'https://modelviewer.dev/shared-assets/models/Astronaut.usdz',
+		alt: 'Astronaut 3D model',
 	},
 	{
-		name: 'Eiffel Tower',
-		description: 'Paris, France — wrought-iron lattice tower.',
-		src: 'models/eiffel_tower.glb',
+		name: 'Damaged Helmet',
+		description: 'Khronos sample hosted by modelviewer.dev',
+		src: 'https://modelviewer.dev/shared-assets/models/Warhol.glb',
 		poster: 'images/eiffel_poster.svg',
-		iosSrc: 'models/eiffel_tower.usdz',
-		alt: 'Eiffel Tower 3D model',
+		iosSrc: 'https://modelviewer.dev/shared-assets/models/Warhol.usdz',
+		alt: 'Warhol 3D model',
 	},
 	{
-		name: 'Pyramids of Giza',
-		description: 'Giza, Egypt — ancient pyramids complex.',
-		src: 'models/giza_pyramids.glb',
+		name: 'Robot Expressive',
+		description: 'GLB sample hosted by modelviewer.dev',
+		src: 'https://modelviewer.dev/shared-assets/models/RobotExpressive.glb',
 		poster: 'images/giza_poster.svg',
-		iosSrc: 'models/giza_pyramids.usdz',
-		alt: 'Giza Pyramids 3D model',
+		iosSrc: 'https://modelviewer.dev/shared-assets/models/RobotExpressive.usdz',
+		alt: 'Robot Expressive 3D model',
 	},
 ];
 
