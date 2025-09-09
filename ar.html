@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>Camera AR (WebXR)</title>
+	<link rel="stylesheet" href="styles.css" />
+	<script src="https://unpkg.com/three@0.160.0/build/three.min.js"></script>
+	<script src="https://unpkg.com/three@0.160.0/examples/jsm/webxr/ARButton.js" type="module"></script>
+	<script defer src="ar.js"></script>
+</head>
+<body>
+	<header class="site-header">
+		<h1>Camera AR</h1>
+		<p class="tagline">Use your device camera to place an object</p>
+	</header>
+	<main class="container">
+		<section class="hero" style="padding: 0;">
+			<canvas id="xr-canvas"></canvas>
+		</section>
+		<p class="tagline" style="text-align:center;">Tap on a surface to place a box</p>
+		<p style="text-align:center;"><a class="secondary" href="index.html">Back to Gallery</a></p>
+	</main>
+</body>
+</html>
+
+
