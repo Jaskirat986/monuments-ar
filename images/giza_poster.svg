@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800">
+	<defs>
+		<linearGradient id="g3" x1="0" y1="0" x2="1" y2="1">
+			<stop offset="0%" stop-color="#121a1d"/>
+			<stop offset="100%" stop-color="#20353a"/>
+		</linearGradient>
+	</defs>
+	<rect width="1200" height="800" fill="url(#g3)"/>
+	<g fill="none" stroke="#4f8cff" stroke-width="8" opacity="0.8">
+		<path d="M220 560h760"/>
+		<path d="M320 560l180-160 180 160"/>
+		<path d="M520 560l180-220 180 220"/>
+	</g>
+	<text x="50%" y="86%" text-anchor="middle" fill="#e6e9ef" font-family="Inter, Arial" font-size="48" font-weight="700">Pyramids of Giza</text>
+	<text x="50%" y="93%" text-anchor="middle" fill="#a5adcb" font-family="Inter, Arial" font-size="24">Poster placeholder — replace with images/giza_poster.jpg</text>
+</svg>
+

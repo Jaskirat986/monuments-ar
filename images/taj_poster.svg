@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800">
+	<defs>
+		<linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+			<stop offset="0%" stop-color="#0e1a2b"/>
+			<stop offset="100%" stop-color="#1e2f57"/>
+		</linearGradient>
+	</defs>
+	<rect width="1200" height="800" fill="url(#g)"/>
+	<g fill="none" stroke="#4f8cff" stroke-width="8" opacity="0.8">
+		<path d="M220 560h760M300 560V470h600v90"/>
+		<path d="M380 470V410h440v60"/>
+		<path d="M560 410V320h80v90"/>
+		<circle cx="600" cy="280" r="28" fill="#4f8cff"/>
+	</g>
+	<text x="50%" y="86%" text-anchor="middle" fill="#e6e9ef" font-family="Inter, Arial" font-size="48" font-weight="700">Taj Mahal</text>
+	<text x="50%" y="93%" text-anchor="middle" fill="#a5adcb" font-family="Inter, Arial" font-size="24">Poster placeholder — replace with images/taj_poster.jpg</text>
+</svg>
+

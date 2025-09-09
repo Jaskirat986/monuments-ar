@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800">
+	<defs>
+		<linearGradient id="g2" x1="0" y1="0" x2="1" y2="1">
+			<stop offset="0%" stop-color="#161b2e"/>
+			<stop offset="100%" stop-color="#2a355a"/>
+		</linearGradient>
+	</defs>
+	<rect width="1200" height="800" fill="url(#g2)"/>
+	<g fill="none" stroke="#4f8cff" stroke-width="8" opacity="0.8">
+		<path d="M220 560h760M600 560V360"/>
+		<path d="M520 360h160M540 360l-80 200M660 360l80 200"/>
+		<circle cx="600" cy="320" r="26" fill="#4f8cff"/>
+	</g>
+	<text x="50%" y="86%" text-anchor="middle" fill="#e6e9ef" font-family="Inter, Arial" font-size="48" font-weight="700">Eiffel Tower</text>
+	<text x="50%" y="93%" text-anchor="middle" fill="#a5adcb" font-family="Inter, Arial" font-size="24">Poster placeholder — replace with images/eiffel_poster.jpg</text>
+</svg>
+
